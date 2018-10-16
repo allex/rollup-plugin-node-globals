@@ -1,5 +1,10 @@
-rollup-plugin-node-globals
+@allex/rollup-plugin-node-globals
 ===
+
+> Some enhances base on [rollup-plugin-node-globals](https://www.npmjs.com/package/rollup-plugin-node-globals)
+>
+> * Add extenssion, defaults to ['.js', '.ts', '.mjs']
+> * Remove source files for npm dist.
 
 Plugin to insert node globals including so code that works with browserify should work even if it uses process or buffers. This is based on [rollup-plugin-inject
 ](https://github.com/rollup/rollup-plugin-inject).
