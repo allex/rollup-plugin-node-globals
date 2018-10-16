@@ -1,12 +1,12 @@
 {
-  "name": "rollup-plugin-node-globals",
+  "name": "@allex/rollup-plugin-node-globals",
   "main": "dist/rollup-plugin-node-globals.cjs.js",
   "jsnext:main": "dist/rollup-plugin-node-globals.es6.js",
   "version": "1.4.0",
   "description": "insert the same globals browserify does",
   "files": [
-    "src",
     "dist",
+    "src/{browser.js,global.js}",
     "README.md"
   ],
   "scripts": {
